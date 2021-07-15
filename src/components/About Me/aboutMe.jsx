@@ -28,7 +28,7 @@ export default function AboutMe() {
         <div className="about-me" id="about_me">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/jack_1.jpg" alt="" />
+                    <img src="../../../public/assets/jack_1.jpg" alt="" />
                 </div>
             </div>
             <div className="right">
