@@ -1,0 +1,14 @@
+@import "../../global.scss";
+
+.home {
+    overflow: hidden;
+
+    .sections {
+        width: 100%;
+        height: calc(100vh - 70px);
+        margin-top: 70px;
+        //background-color: $mainColor;
+        position: relative;
+        scroll-behavior: smooth;
+    }
+}

@@ -1,0 +1,151 @@
+.coaching {
+    background-color: #E6E6E6;
+    text-align: center;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    h1 {
+        font-size: 35px;
+        margin-bottom: 1.5rem;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 2rem;
+        grid-row-gap: 4rem;
+        padding: 4rem;
+
+        .card {
+            padding: 3rem 2rem;
+            position: relative;
+            padding-top: 5rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #FFFFFF;
+
+            .card-image-container {
+                width: 100px;
+                height: 100px;
+                background-color: #0088CC;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                top: -3.5rem;
+                left: 0%;
+                //transform: translateX(-50%);
+
+                img {
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+
+            h2 {
+                margin-bottom: 30px;
+            }
+
+            p {
+                color: #000000;
+            }
+        }
+
+        .card:hover {
+            cursor: pointer;
+            background: #000000;
+        }
+
+        .card:hover h2,
+        p {
+            color: #FFFFFF;
+        }
+
+        .card:hover p {
+            color: #FFFFFF;
+        }
+    }
+}
+
+/* Extra small mobile devices*/
+@media only screen and (max-width: 768px) {
+    .coaching {
+        padding-top: 2rem;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        p {
+            font-size: 15px;
+            text-align: justify;
+            margin-bottom: 1.5rem;
+        }
+
+        .grid-container {
+            grid-template-columns: auto;
+            grid-column-gap: 0rem;
+            grid-row-gap: 1rem;
+            padding: 0;
+            margin-bottom: 3rem;
+
+            .card {
+
+                .card-image-container {
+                    top: -2.5rem;
+                }
+
+                h2 {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+/* Extra Small mobile devices from 371px - 480px*/
+// No Change. The design looks fine.
+
+
+/* Large Tablets */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .coaching {
+        padding-left: 20px;
+        padding-right: 20px;
+
+        p {
+            font-size: 20px;
+            text-align: justify;
+            margin-bottom: 3rem;
+        }
+
+        .grid-container {
+            padding: 0;
+            margin-bottom: 3rem;
+
+            .card {
+
+                .card-image-container {
+                    top: -2.5rem;
+                }
+
+                h2 {
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

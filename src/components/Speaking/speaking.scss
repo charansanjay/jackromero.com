@@ -1,0 +1,44 @@
+.speaking {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    h1 {
+        font-size: 35px;
+        margin-bottom: 2rem;
+    }
+
+    p {
+        font-size: 25px;
+        margin-top: 20px;
+        color: #0088CC;
+        cursor: pointer;
+    }
+}
+
+/* Extra small mobile devices*/
+@media only screen and (max-width: 768px) {
+    .speaking {
+        p {
+            font-size: 20px;
+        }
+    }
+}
+/* Till Small Tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .speaking {
+        p {
+            font-size: 30px;
+        }
+    }
+}
+
+/* Large Tablets */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .speaking {
+        p {
+            font-size: 40px;
+        }
+    }
+}

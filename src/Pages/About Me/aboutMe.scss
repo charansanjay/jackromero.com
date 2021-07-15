@@ -1,0 +1,194 @@
+.aboutMe {
+    background-color: #f3f2f2;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+
+    h1 {
+        color: orange;
+    }
+
+    .image-container {
+        height: 450px;
+        width: 100%;
+        text-align: center;
+
+        img {
+            width: 100%;
+            //height: 100%;
+            margin: 30px 0;
+        }
+    }
+
+
+    .about-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+
+
+        .left {
+            flex: 0.4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+
+            .image-container {
+                height: 60%;
+                width: 60%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .right {
+            flex: 0.6;
+
+            .info-container {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                width: 90%;
+
+
+                h3 {
+                    margin-bottom: 5px;
+                }
+
+                h5 {
+                    margin-bottom: 20px;
+                    color: grey;
+                }
+            }
+        }
+    }
+}
+
+/* For MOBILE PHONES - Till 415px width (
+    Moto G4, Galaxy S5 - 360px,
+    Pixel 2, Pixel 2 XL- 411px, 
+    iphone 5/SE - 320px, iphone 6/7/8 - 375px, iphone 6/7/8 plus - 414px)
+    iphone X - 375px, 
+    
+    */
+@media only screen and (max-width: 415px) {
+    .aboutMe {
+        margin-top: 39px;
+
+        .image-container {
+            height: 135px;
+
+            img {
+                height: 100%;
+            }
+        }
+
+        .about-container {
+            flex-direction: column;
+            margin-top: 0;
+
+            .left {
+                .image-container {
+                    height: 45%;
+                    width: 45%;
+                }
+            }
+
+            .right {
+                padding: 0 17px;
+
+                .info-container {
+                    width: 100%;
+
+
+                    p {
+                        font-size: 16px;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* For SMALL TABLETS - From 416px  - 769px width (
+    Surface Duo - 540px.
+    iPad - 768px,
+    */
+@media only screen and (min-width: 416px) and (max-width: 769px) {
+    .aboutMe {
+        margin-top: 39px;
+
+        .image-container {
+            height: 170px;
+        }
+
+        .about-container {
+            flex-direction: column;
+            margin-top: 0;
+
+            .left {
+                .image-container {
+                    height: 45%;
+                    width: 45%;
+                }
+            }
+
+            .right {
+                padding: 0 20px;
+
+                .info-container {
+                    width: 100%;
+                    text-align: Justify;
+
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* For LARGE TABLETS - From 770px  - 1025px width (
+    iPad Pro - 1024px.
+    */
+@media only screen and (min-width: 770px) and (max-width: 1025px) {
+    .aboutMe {
+        margin-top: 40px;
+
+        .image-container {
+            height: 320px;
+        }
+
+        .about-container {
+            flex-direction: column;
+            margin-top: 0;
+
+            .right {
+                padding: 0 25px;
+                .info-container {
+                    width: 100%;
+
+                    p {
+                        font-size: 20px;
+                        text-align: justify;
+                    }
+                }
+            }
+
+        }
+    }
+}
