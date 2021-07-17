@@ -11,7 +11,7 @@ export default function Speaking() {
         <div className="speaking" id="speaking">
             {/* <h1>Speaking</h1> */}
             <YoutubeEmbed embedId="oM1qx7-dNOs" />
-            <Link to="/speaking"><p>Watch more -></p></Link>
+            <Link to="/speaking" className="link"><p>Watch more -></p></Link>
         </div>
     )
 }

@@ -6,6 +6,7 @@ import { useHistory } from "react-router-dom";
 import blog_1 from "../../images/blog_1.png";
 import cross_culture from "../../images/cross-culture.png";
 import wiskat_website from "../../images/wiskat_website.PNG";
+import invest from "../../images/invest.jpg";
 
 export default function FundingCorner() {
 
@@ -87,9 +88,16 @@ export default function FundingCorner() {
     let history = useHistory();
     return (
         <div className="funding-corner">
-            <h1>Invest into the Future</h1>
+            <div className="heading">
+                <div className="image-container">
+                <img src={invest} />
+                </div>
+                
+                <h1>Invest into the Future</h1>
+            </div>
 
-            <p>Say something about this section.</p>
+
+            {/* <p>Say something about this section.</p> */}
 
             {/* Section 1 */}
             <div className="container1">

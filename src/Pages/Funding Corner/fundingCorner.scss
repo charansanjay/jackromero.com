@@ -1,21 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&display=swap');
+
+
 .funding-corner {
     margin-top: 70px;
 
-    padding: 40px 100px;
+    padding: 0 0px;
 
-    h1,
+    .heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+
+        .image-container {
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+
+            position: relative;
+            img {
+                width: 100%;
+                height: 100%;
+                
+            }
+        }
+
+        h1 {
+            position: absolute;
+            top: 15%;
+            left: 5%;
+            margin: 10px 0;
+            color: #000000;
+            font-family: 'Dancing Script', cursive;
+            //font-family: 'Lobster', cursive;
+            font-size: 100px;
+            font-weight: bold;
+        }
+    }
+
     p {
         margin: 10px 0;
         text-align: center;
     }
 
     p {
+        margin: 10px 0;
         margin-bottom: 50px;
+        text-align: center;
     }
 
     
 
     .container1 {
+        padding: 0 100px;
+        margin-bottom: 50px;
         h3 {
             color: rgb(47, 47, 158);
             margin-bottom: 30px;
@@ -69,6 +109,13 @@
 
     /* Section 2 */
     .container2 {
+        padding: 0 100px;
+
+        h3 {
+            color: rgb(47, 47, 158);
+            margin-bottom: 30px;
+            font-size: 22px;
+        }
 
         .section-container {
 
@@ -195,13 +242,38 @@
     */
 @media only screen and (max-width: 415px) {
     .funding-corner {
-        padding: 20px 20px;
+        padding: 0px 0px;
 
-        h1 {
-            font-size: 25px;
+        .heading {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 35px;
+    
+            .image-container {
+                width: 100%;
+                height: 200px;
+                overflow: hidden;
+    
+                position: relative;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    
+                }
+            }
+    
+            h1 {
+                top: 13%;
+                left: 8%;
+                color: #000000;
+                font-size: 32px;
+            }
         }
 
         .container1 {
+            padding: 0 20px;
             h3 {
                 font-size: 19px;
             }
@@ -230,8 +302,10 @@
         }
 
         .container2 {
+            padding: 0 10px;;
             h3 {
                 color: rgb(47, 47, 158);
+                padding: 0 10px;
             }
 
             .section-container {

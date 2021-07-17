@@ -1,7 +1,7 @@
 import "./blogCorner.scss";
 import { useState } from "react";
 
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 // Images imports
 import blog_1 from "../../images/blog_1.png";
@@ -69,7 +69,7 @@ export default function BlogCorner() {
 
                                     <p className="description">{d.description}</p>
 
-                                    <a href="../../Pages/Blogs/blogs.jsx">Read more..</a>
+                                    <Link to="/blogs-details" className="link">Read more..</Link>
 
                                     {/* <p className="read-more"><strong>Read more..</strong></p> */}
 

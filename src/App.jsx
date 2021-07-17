@@ -48,8 +48,9 @@ function App() {
           <Route exact path="/funding-corner" component={FundingCorner} />
 
         </Switch>
-        <Footer />
+        
       </div>
+      
     </Router>
   );
 }

@@ -106,21 +106,23 @@
                             color: #000000;
                         }
 
-                        h6 {
-                            //text-align: left;
-                        }
-
                         .description {
                             color: grey;
                             text-align: justify;
                             margin-bottom: 15px;
                         }
 
-                        .read-more {
+                        .link {
+                            text-decoration: none;
                             color: #0088CC;
                             cursor: pointer;
-                            //text-align: center;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
                         }
+
+                        
                     }
                 }
             }
