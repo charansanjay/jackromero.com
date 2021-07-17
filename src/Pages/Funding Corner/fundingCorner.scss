@@ -13,61 +13,62 @@
         margin-bottom: 50px;
     }
 
-    h3 {
-        color: rgb(47, 47, 158);
-        margin-bottom: 30px;
-        font-size: 22px;
-    }
+    
 
-    .section1-container {
+    .container1 {
+        h3 {
+            color: rgb(47, 47, 158);
+            margin-bottom: 30px;
+            font-size: 22px;
+        }
+        .section1-container {
 
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: center;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: center;
 
 
-        .left {
-            flex: 0.6;
+            .left {
+                flex: 0.6;
 
-            .image-container {
-                width: 100%;
-                height: 500px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                margin-bottom: 50px;
+                .image-container {
+                    width: 100%;
+                    height: 500px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 50px;
 
-                img {
-                    width: 85%;
-                    height: 100%;
+                    img {
+                        width: 85%;
+                        height: 100%;
+                    }
+                }
+            }
+
+            .right {
+                flex: 0.4;
+
+                .info-container {
+
+                    h4 {
+                        font-size: 16px;
+                    }
+
+                    p {
+                        font-size: 13px;
+                        text-align: justify;
+                    }
                 }
             }
         }
-
-        .right {
-            flex: 0.4;
-
-            .info-container {
-
-                h4 {
-                    font-size: 16px;
-                }
-
-                p {
-                    font-size: 13px;
-                    text-align: justify;
-                }
-            }
-        }
-
-
-
-
     }
+
+
 
     /* Section 2 */
-    .container {
+    .container2 {
 
         .section-container {
 
@@ -96,6 +97,7 @@
                     width: 100%;
                     height: 200px;
                     text-align: center;
+
                     .banner {
                         width: 100%;
                     }
@@ -130,25 +132,146 @@
                     }
 
                     .info2 {
-                        padding: 0 10px;
+                        padding: 0 20px;
+
                         h5 {
                             font-size: 15px;
                             text-align: left;
-                            
+
                             color: grey;
                         }
-    
-                        
-    
+
+
+
                         p {
-                            width: 90%;
+                            width: 100%;
                             font-size: 13px;
                             text-align: justify;
                         }
+
+                        .investment-info {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            .left {
+                                flex: 0.5;
+
+                                h2 {
+                                    font-size: 17px;
+                                    span {
+                                        color: #c6c93c;
+                                        font-size: 17px;
+                                    }
+                                }
+                                
+                            }
+
+                            .right {
+                                flex: 0.5;
+                                h2 {
+                                    font-size: 16px;
+                                    span {
+                                        color: #0088CC;
+                                        font-size: 17px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* For MOBILE PHONES - Till 415px width (
+    Moto G4, Galaxy S5 - 360px,
+    Pixel 2, Pixel 2 XL- 411px, 
+    iphone 5/SE - 320px, iphone 6/7/8 - 375px, iphone 6/7/8 plus - 414px)
+    iphone X - 375px, 
     
-                        h2 {
-                            font-size: 20px;
-                            color: orange;
+    */
+@media only screen and (max-width: 415px) {
+    .funding-corner {
+        padding: 20px 20px;
+
+        h1 {
+            font-size: 25px;
+        }
+
+        .container1 {
+            h3 {
+                font-size: 19px;
+            }
+
+            .section1-container {
+                flex-direction: column;
+                align-items: center;
+
+                .left {
+                    flex: 1;
+    
+                    .image-container {
+                        height: auto;
+                        margin-bottom: 30px;
+    
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .right {
+                    flex: 1;
+                }
+            }
+        }
+
+        .container2 {
+            h3 {
+                color: rgb(47, 47, 158);
+            }
+
+            .section-container {
+                .card {
+                    .image-container {
+                        height: auto;
+    
+                        .banner {
+                            height: 100%;
+                        }
+                    }
+    
+                    .info {
+                        .info1 {
+                            padding: 10px 15px;
+                        }
+
+                        .info2 {
+
+                            .investment-info {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+
+                                .left {
+                                    flex: 0.5;
+
+                                    h2 {
+                                        font-size: 15px;
+                                    }
+                                    
+                                }
+
+                                .right {
+                                    flex: 0.5;
+                                    h2 {
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
                         }
                     }
                 }
