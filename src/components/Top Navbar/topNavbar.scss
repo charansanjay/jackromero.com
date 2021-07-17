@@ -12,10 +12,11 @@
         padding: 10px 30px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-end;
 
         .left {
-            flex: 1;
+            flex: 0.6;
+            //background-color: yellow;
 
             img {
                 width: 135px;
@@ -29,8 +30,9 @@
         overflow: hidden;
 
         .right {
-            flex: 0.5;
+            flex: 0.4;
             display: flex;
+            align-items: center;
             justify-content: flex-end;
 
             .hamburger {
@@ -51,8 +53,6 @@
                 }
             }
         }
-
-
     }
 }
 
@@ -60,36 +60,35 @@
     .top-navbar {
 
         .wrapper {
+            padding: 10px 20px;
+            padding-left: 10px;
+            //background-color: orange;
 
             .left {
+                flex: 0.5;
+                padding-left: 0px;
 
                 img {
                     width: 105px;
                 }
             }
 
-            .right-section {
-                ul {
-
-                    li {
-                        font-size: 0;
-                    }
-
-                }
-            }
-
             .right {
-                flex: 0.4;
+                flex: 0.5;
+                //background-color: pink;
                 display: flex;
+                align-items: center;
                 justify-content: flex-end;
 
                 .hamburger {
-                    width: 31px;
+                    width: 30px;
                     height: 24px;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
+                    align-items: flex-end;
                     cursor: pointer;
+                    //background-color: blue;
 
                     span {
                         width: 100%;
@@ -99,26 +98,16 @@
                         transition: all 2s ease;
                     }
                 }
+            }
 
-                /* ul {
-                    display: flex;
-                    flex-direction: row;
+            .right-section {
+                width: 0;
+                ul {
 
                     li {
-                        text-decoration: none;
-                        margin-left: 25px;
-                        font-size: 13px;
-                        font-weight: bold;
-                        color: #000000;
-                        cursor: pointer;
-
-                        .link {
-                            text-decoration: none;
-                            color: #FFFFFF;
-                        }
+                        font-size: 0;
                     }
-
-                } */
+                }
             }
         }
     }
