@@ -25,9 +25,9 @@ export default function menu({ menuOpen, setMenuOpen }) {
                 <li onClick={() =>setMenuOpen(false)}>
                     <Link to="/funding-corner" className="link">Funds Corner</Link>
                 </li>
-                <li onClick={() =>setMenuOpen(false)}>
+                {/* <li onClick={() =>setMenuOpen(false)}>
                     <Link to="/" className="link">Testimonials</Link>
-                </li>
+                </li> */}
                 <li onClick={() =>setMenuOpen(false)}>
                     <Link to="/contact" className="link">Contact</Link>
                 </li>
