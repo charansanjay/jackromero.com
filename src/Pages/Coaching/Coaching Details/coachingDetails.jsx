@@ -1,11 +1,14 @@
 import "./coachingDetails.scss";
 
+// Images imports
+import coaching from "../../../images/coaching.jpg";
+
 export default function CoachingDetails() {
     return (
         <div className="coaching-details">
             {/* Image Banner */}
             <div className="image-container">
-                <img src="assets/coaching.jpg" />
+                <img src={coaching} />
             </div>
 
             {/* Coaching Info */}
