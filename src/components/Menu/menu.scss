@@ -1,6 +1,4 @@
-
-
-.menu{
+.menu {
     width: 300px;
     height: 100%;
     background-color: #000000;
@@ -11,14 +9,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     transition: all 1s ease;
+    margin-top: 70px;
+    padding-top: 35px;
 
-    &.active{
+    &.active {
         right: 0;
     }
 
-    ul{
+    ul {
         margin: 0;
         padding: 0;
         list-style: none;
@@ -27,17 +27,45 @@
         color: #FFFFFF;
         width: 60%;
 
-        li{
+        li {
             margin-bottom: 20px;
+
             .link {
                 font-size: inherit;
                 color: #FFFFFF;
                 text-decoration: none;
             }
 
-            &:hover{
+            &:focus {
+                outline: none;
+            }
+
+            &:hover {
                 font-weight: 600;
             }
+        }
+    }
+}
+
+/* For MOBILE PHONES - Till 415px width (
+    Moto G4, Galaxy S5 - 360px,
+    Pixel 2, Pixel 2 XL- 411px, 
+    iphone 5/SE - 320px, iphone 6/7/8 - 375px, iphone 6/7/8 plus - 414px)
+    iphone X - 375px, 
+    
+    */
+@media only screen and (max-width: 415px) {
+    .menu {
+        width: 280px;
+        right: -280px;
+        
+
+        &.active {
+            right: 0;
+        }
+
+        ul {
+            font-size: 23px;
         }
     }
 }
