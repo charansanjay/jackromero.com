@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/jackromero.com/static/css/main.095c1c80.chunk.css",
-    "main.js": "/jackromero.com/static/js/main.0ae0e2b9.chunk.js",
-    "main.js.map": "/jackromero.com/static/js/main.0ae0e2b9.chunk.js.map",
+    "main.css": "/jackromero.com/static/css/main.8879567b.chunk.css",
+    "main.js": "/jackromero.com/static/js/main.b0cbf775.chunk.js",
+    "main.js.map": "/jackromero.com/static/js/main.b0cbf775.chunk.js.map",
     "runtime-main.js": "/jackromero.com/static/js/runtime-main.d55b967a.js",
     "runtime-main.js.map": "/jackromero.com/static/js/runtime-main.d55b967a.js.map",
     "static/js/2.de24ccbd.chunk.js": "/jackromero.com/static/js/2.de24ccbd.chunk.js",
     "static/js/2.de24ccbd.chunk.js.map": "/jackromero.com/static/js/2.de24ccbd.chunk.js.map",
     "index.html": "/jackromero.com/index.html",
-    "static/css/main.095c1c80.chunk.css.map": "/jackromero.com/static/css/main.095c1c80.chunk.css.map",
+    "static/css/main.8879567b.chunk.css.map": "/jackromero.com/static/css/main.8879567b.chunk.css.map",
     "static/js/2.de24ccbd.chunk.js.LICENSE.txt": "/jackromero.com/static/js/2.de24ccbd.chunk.js.LICENSE.txt",
     "static/media/blog_1.076d0816.png": "/jackromero.com/static/media/blog_1.076d0816.png",
     "static/media/blog_2.9aa73872.png": "/jackromero.com/static/media/blog_2.9aa73872.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.d55b967a.js",
     "static/js/2.de24ccbd.chunk.js",
-    "static/css/main.095c1c80.chunk.css",
-    "static/js/main.0ae0e2b9.chunk.js"
+    "static/css/main.8879567b.chunk.css",
+    "static/js/main.b0cbf775.chunk.js"
   ]
 }
