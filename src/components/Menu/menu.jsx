@@ -14,22 +14,22 @@ export default function menu({ menuOpen, setMenuOpen }) {
                     <Link to="/about-me" className="link">About Me</Link>
                 </li>
                 <li onClick={() =>setMenuOpen(false)}>
-                    <Link to="/" className="link">Coaching</Link>
+                    <Link to="/coaching-main" className="link">Coaching</Link>
                 </li>
                 <li onClick={() =>setMenuOpen(false)}>
-                    <Link to="/" className="link">Speaking</Link>
+                    <Link to="/speaking" className="link">Speaking</Link>
                 </li>
                 <li onClick={() =>setMenuOpen(false)}>
                     <Link to="/blogs" className="link">Blogs</Link>
                 </li>
                 <li onClick={() =>setMenuOpen(false)}>
-                    <Link to="/" className="link">Funds Corner</Link>
+                    <Link to="/funding-corner" className="link">Funds Corner</Link>
                 </li>
                 <li onClick={() =>setMenuOpen(false)}>
                     <Link to="/" className="link">Testimonials</Link>
                 </li>
                 <li onClick={() =>setMenuOpen(false)}>
-                    <Link to="/" className="link">Contact</Link>
+                    <Link to="/contact" className="link">Contact</Link>
                 </li>
                 
             </ul>
