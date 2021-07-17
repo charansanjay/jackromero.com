@@ -34,15 +34,13 @@
                 font-size: inherit;
                 color: #FFFFFF;
                 text-decoration: none;
-            }
+            }            
 
-            &:focus {
-                outline: none;
-            }
-
-            &:hover {
+            &:hover{
                 font-weight: 600;
             }
+
+            .link:focus {outline:none}
         }
     }
 }

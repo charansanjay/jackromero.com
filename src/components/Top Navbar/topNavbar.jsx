@@ -20,7 +20,7 @@ export default function TopNavbar({ menuOpen, setMenuOpen }) {
             <div className="wrapper">
                 {/* Left */}
                 <div className="left">
-                    <a href="#about_me"><img src={jack_logo} /></a>
+                    <Link to="/" className="link" ><img src={jack_logo} /></Link>
                 </div>
 
                 {/* Right (only for Mobile phones) */}

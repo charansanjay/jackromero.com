@@ -87,7 +87,36 @@ footer {
             pointer-events: auto;
         }
     }
-
-
-
 }
+
+
+/* For MOBILE PHONES - Till 415px width (
+    Moto G4, Galaxy S5 - 360px,
+    Pixel 2, Pixel 2 XL- 411px, 
+    iphone 5/SE - 320px, iphone 6/7/8 - 375px, iphone 6/7/8 plus - 414px)
+    iphone X - 375px, 
+    
+    */
+    @media only screen and (max-width: 415px) {
+        footer {
+            padding: 2rem 0;
+        
+            .social {
+        
+                a {
+                    margin-left: 20px;
+        
+                    img {
+                        width: 35px;
+                        height: 35px;
+                    }
+                }
+            }
+        
+            .copyright {
+                color: #a19e9e;
+            }
+        
+        
+        }
+    }
