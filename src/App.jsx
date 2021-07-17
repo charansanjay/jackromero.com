@@ -24,19 +24,19 @@ import "./app.scss";
 import { useState } from "react";
 
 // Navigation imports
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { Redirect } from 'react-router'
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
-
-    <div className="app">
-      <Router>
-      <Switch>
+    <Router basename="/" >
+      <div className="app">
         <TopNavbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        
-          <Route exact path="/home" component={Home} />
+        <Switch>
+
+          <Route exact path="/" component={Home} />
           <Route exact path="/blogs" component={Blogs} />
           <Route exact path="/about-me" component={About} />
           <Route exact path="/coaching-main" component={CoachingMain} />
@@ -46,14 +46,11 @@ function App() {
           <Route exact path="/coaching-details" component={CoachingDetails} />
           <Route exact path="/blogs-details" component={BlogsDetails} />
           <Route exact path="/funding-corner" component={FundingCorner} />
-        
-        <Footer />
+
         </Switch>
-      </Router>
-    </div>
-
-
-
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

@@ -34,7 +34,7 @@ export default function TopNavbar({ menuOpen, setMenuOpen }) {
 
                 <div className="right-section">
                     <ul>
-                        <li><Link to="/home" className="link" >Home</Link></li>
+                        <li><Link to="/" className="link" >Home</Link></li>
                         <li><Link to="/about-me" className="link">About Me</Link></li>
                         <li><Link to="/coaching-main" className="link">Coaching</Link></li>
                         <li><Link to="/speaking" className="link">Speaking</Link></li>
