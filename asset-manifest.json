@@ -1,21 +1,35 @@
 {
   "files": {
     "main.css": "/jackromero.com/static/css/main.9fa2e18b.chunk.css",
-    "main.js": "/jackromero.com/static/js/main.2f52bfb6.chunk.js",
-    "main.js.map": "/jackromero.com/static/js/main.2f52bfb6.chunk.js.map",
+    "main.js": "/jackromero.com/static/js/main.bf281f78.chunk.js",
+    "main.js.map": "/jackromero.com/static/js/main.bf281f78.chunk.js.map",
     "runtime-main.js": "/jackromero.com/static/js/runtime-main.d55b967a.js",
     "runtime-main.js.map": "/jackromero.com/static/js/runtime-main.d55b967a.js.map",
-    "static/js/2.8d080ae4.chunk.js": "/jackromero.com/static/js/2.8d080ae4.chunk.js",
-    "static/js/2.8d080ae4.chunk.js.map": "/jackromero.com/static/js/2.8d080ae4.chunk.js.map",
+    "static/js/2.ce548cbd.chunk.js": "/jackromero.com/static/js/2.ce548cbd.chunk.js",
+    "static/js/2.ce548cbd.chunk.js.map": "/jackromero.com/static/js/2.ce548cbd.chunk.js.map",
     "index.html": "/jackromero.com/index.html",
     "static/css/main.9fa2e18b.chunk.css.map": "/jackromero.com/static/css/main.9fa2e18b.chunk.css.map",
-    "static/js/2.8d080ae4.chunk.js.LICENSE.txt": "/jackromero.com/static/js/2.8d080ae4.chunk.js.LICENSE.txt",
-    "static/media/jack_1.jpg": "/jackromero.com/static/media/jack_1.86ab9d71.jpg"
+    "static/js/2.ce548cbd.chunk.js.LICENSE.txt": "/jackromero.com/static/js/2.ce548cbd.chunk.js.LICENSE.txt",
+    "static/media/blog_1.076d0816.png": "/jackromero.com/static/media/blog_1.076d0816.png",
+    "static/media/blog_2.9aa73872.png": "/jackromero.com/static/media/blog_2.9aa73872.png",
+    "static/media/blog_3.c7f8c5f8.png": "/jackromero.com/static/media/blog_3.c7f8c5f8.png",
+    "static/media/charan_1.29ac99a5.PNG": "/jackromero.com/static/media/charan_1.29ac99a5.PNG",
+    "static/media/cross-culture.b0612cb7.png": "/jackromero.com/static/media/cross-culture.b0612cb7.png",
+    "static/media/entrepreneur_2.8146024d.png": "/jackromero.com/static/media/entrepreneur_2.8146024d.png",
+    "static/media/facebook.fe3edacd.webp": "/jackromero.com/static/media/facebook.fe3edacd.webp",
+    "static/media/instagram.aa133b4a.webp": "/jackromero.com/static/media/instagram.aa133b4a.webp",
+    "static/media/jack_1.86ab9d71.jpg": "/jackromero.com/static/media/jack_1.86ab9d71.jpg",
+    "static/media/jack_aeroplane.f11a6912.jfif": "/jackromero.com/static/media/jack_aeroplane.f11a6912.jfif",
+    "static/media/jack_round.f2277fd8.jfif": "/jackromero.com/static/media/jack_round.f2277fd8.jfif",
+    "static/media/life_journey.90db5d93.jpg": "/jackromero.com/static/media/life_journey.90db5d93.jpg",
+    "static/media/linkedin.476f3104.png": "/jackromero.com/static/media/linkedin.476f3104.png",
+    "static/media/shake.c7165a1f.svg": "/jackromero.com/static/media/shake.c7165a1f.svg",
+    "static/media/wiskat_website.854328a8.PNG": "/jackromero.com/static/media/wiskat_website.854328a8.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.d55b967a.js",
-    "static/js/2.8d080ae4.chunk.js",
+    "static/js/2.ce548cbd.chunk.js",
     "static/css/main.9fa2e18b.chunk.css",
-    "static/js/main.2f52bfb6.chunk.js"
+    "static/js/main.bf281f78.chunk.js"
   ]
 }
