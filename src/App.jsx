@@ -35,7 +35,7 @@ function App() {
         <TopNavbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
           <Route exact path="/blogs" component={Blogs} />
           <Route exact path="/about-me" component={About} />
           <Route exact path="/coaching-main" component={CoachingMain} />
