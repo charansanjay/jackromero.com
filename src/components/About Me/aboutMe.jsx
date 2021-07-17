@@ -9,6 +9,10 @@ import { init } from "ityped";
 // Navigation imports
 import { Link } from "react-router-dom";
 
+//Configurations import
+import CfgImages from "../../config/images";
+import jack_1 from "../../images/jack_1.jpg";
+
 
 export default function AboutMe() {
 
@@ -28,7 +32,7 @@ export default function AboutMe() {
         <div className="about-me" id="about_me">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="../../../public/assets/jack_1.jpg" alt="" />
+                    <img src={jack_1} alt="" />
                 </div>
             </div>
             <div className="right">

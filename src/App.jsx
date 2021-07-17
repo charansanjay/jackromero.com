@@ -32,6 +32,7 @@ function App() {
       <Router>
         <TopNavbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <Home/>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/blogs" component={Blogs} />
