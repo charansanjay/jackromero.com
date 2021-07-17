@@ -1,5 +1,10 @@
 import "./testimonials.scss";
 
+// Images import
+import jack_1 from "../../images/jack_1.jpg";
+import charan_1 from "../../images/charan_1.PNG";
+
+
 export default function Testimonials() {
 
     const data = [
@@ -8,14 +13,14 @@ export default function Testimonials() {
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut!",
             name: "Jasper",
             title: "Wiskat Limited",
-            image: "assets/jack_1.jpg"
+            image: jack_1,
         },
         {
             id: "1",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut!",
             name: "Jack Romero",
             title: "CEO - Wiskat Limited",
-            image: "assets/jack_1.jpg",
+            image: jack_1,
             featured: true,
         },
         {
@@ -23,7 +28,7 @@ export default function Testimonials() {
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut!",
             name: "Charan Singh",
             title: "Wiskat Limited",
-            image: "assets/charan_1.PNG"
+            image: charan_1,
         }
     ]
 

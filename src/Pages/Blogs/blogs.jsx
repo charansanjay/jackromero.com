@@ -2,6 +2,10 @@ import "./blogs.scss";
 
 import { useHistory } from "react-router-dom";
 
+// Images imports
+import blog_1 from "../../images/blog_1.png";
+import blog_2 from "../../images/blog_2.png";
+import blog_3 from "../../images/blog_3.png";
 
 export default function Blogs() {
 
@@ -9,42 +13,42 @@ export default function Blogs() {
         {
             id: "1",
             blog_title: "This is Blog 1 hsdhhf fssaj fjslfjalf jsflafjsl fsfjsjl.",
-            img: "assets/blog_1.png",
+            img: blog_1,
             date: "Date - July 01, 2021",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut accusamus explicabo aspernatur harum consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat um consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat!"
         },
         {
             id: "2",
             blog_title: "This is Blog 2",
-            img: "assets/blog_2.png",
+            img: blog_2,
             date: "Date - July 01, 2021",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut accusamus explicabo aspernatur harum consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat um consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat!"
         },
         {
             id: "3",
             blog_title: "This is Blog 3",
-            img: "assets/blog_3.png",
+            img: blog_3,
             date: "Date - July 01, 2021",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut accusamus explicabo aspernatur harum consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat um consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat!"
         },
         {
             id: "4",
             blog_title: "This is Blog 4",
-            img: "assets/blog_1.png",
+            img: blog_1,
             date: "Date - July 01, 2021",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut accusamus explicabo aspernatur harum consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat um consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat!"
         },
         {
             id: "5",
             blog_title: "This is Blog 5",
-            img: "assets/blog_2.png",
+            img: blog_2,
             date: "Date - July 01, 2021",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut accusamus explicabo aspernatur harum consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat um consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat!"
         },
         {
             id: "6",
             blog_title: "This is Blog 6",
-            img: "assets/blog_3.png",
+            img: blog_3,
             date: "Date - July 01, 2021",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut accusamus explicabo aspernatur harum consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat um consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat!"
         },
@@ -64,7 +68,7 @@ export default function Blogs() {
                 {/* Image */}
                 <div className="left">
                     <div onClick={() => history.push("/blogs-details")} className="image-container">
-                        <img src="assets/blog_1.png" />
+                        <img src={blog_1} />
                     </div>
 
                 </div>
@@ -82,7 +86,7 @@ export default function Blogs() {
             <div className="section2-container">
                 <div className="card">
                     <div className="image-container">
-                        <img src="assets/blog_2.png" />
+                        <img src={blog_2} />
                     </div>
 
                     <div className="info">
@@ -95,7 +99,7 @@ export default function Blogs() {
 
                 <div className="card">
                     <div className="image-container">
-                        <img src="assets/blog_3.png" />
+                        <img src={blog_3} />
                     </div>
 
                     <div className="info">

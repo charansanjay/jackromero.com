@@ -1,5 +1,12 @@
 import "./footer.scss";
 
+// Images import
+import linkedin from "../../images/linkedin.png";
+import twitter from "../../images/twitter.png";
+import instagram from "../../images/instagram.webp";
+import facebook from "../../images/facebook.webp";
+
+
 export default function Footer() {
     return (
         <div>
@@ -7,10 +14,10 @@ export default function Footer() {
                 <div><img className="footer-logo" src="assets/jack_logo.png" alt="" /></div>
 
                 <div className="social">
-                    <a href="https://www.linkedin.com/in/jack-romero?trk=people-guest_people_search-card" target="_blank"><img src="assets/linkedin.png"></img></a>
-                    <a href="#"><img src="assets/twitter.png" /></a>
-                    <a href="https://www.instagram.com/jackromero2602/" target="_blank"><img src="assets/instagram.webp" /></a>
-                    <a href="#"><img src="assets/facebook.webp" /></a>
+                    <a href="https://www.linkedin.com/in/jack-romero?trk=people-guest_people_search-card" target="_blank"><img src={linkedin}></img></a>
+                    <a href="#"><img src={twitter} /></a>
+                    <a href="https://www.instagram.com/jackromero2602/" target="_blank"><img src={instagram} /></a>
+                    <a href="#"><img src={facebook} /></a>
                 </div>
 
                 <div className="copyright">&copy;Copyright 2021. All rights reserved.</div>

@@ -1,12 +1,16 @@
 import "./aboutMe.scss";
 
+// Images import
+import jack_aeroplane from "../../images/jack_aeroplane.jfif";
+import jack_round from "../../images/jack_round.jfif";
+
 export default function aboutMe() {
     return (
         <div className="aboutMe" id="aboutMe">
             {/* <h1>About</h1> */}
 
             <div className="image-container">
-                <img src="assets/jack_aeroplane.jfif" />
+                <img src={jack_aeroplane} />
             </div>
 
 
@@ -15,7 +19,7 @@ export default function aboutMe() {
                 {/* Left */}
                 <div className="left">
                     <div className="image-container">
-                        <img src="assets/jack_round.jfif" />
+                        <img src={jack_round} />
                     </div>
                 </div>
 

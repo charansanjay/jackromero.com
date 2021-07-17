@@ -3,6 +3,11 @@ import { useState } from "react";
 
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
+// Images imports
+import blog_1 from "../../images/blog_1.png";
+import blog_2 from "../../images/blog_2.png";
+import blog_3 from "../../images/blog_3.png";
+
 export default function BlogCorner() {
 
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -11,21 +16,21 @@ export default function BlogCorner() {
         {
             id: "1",
             blog_title: "This is Blog 1",
-            img: "assets/blog_1.png",
+            img: blog_1,
             date: "July 01, 2021",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut accusamus explicabo aspernatur harum consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat um consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat!"
         },
         {
             id: "2",
             blog_title: "This is Blog 2",
-            img: "assets/blog_2.png",
+            img: blog_2,
             date: "July 01, 2021",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut accusamus explicabo aspernatur harum consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat um consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat!"
         },
         {
             id: "3",
             blog_title: "This is Blog 3",
-            img: "assets/blog_3.png",
+            img: blog_3,
             date: "July 01, 2021",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut accusamus explicabo aspernatur harum consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat um consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat!"
         },

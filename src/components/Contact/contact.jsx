@@ -3,6 +3,9 @@ import "./contact.scss"
 // React imports
 import { useState } from "react";
 
+// Images import
+import shake from "../../images/shake.svg";
+
 export default function Contact() {
 
     const handleSubmit = (e) => {
@@ -15,7 +18,7 @@ export default function Contact() {
     return (
         <div className="contact" id="contact">
             <div className="left">
-                <img src="assets/shake.svg" />
+                <img src={shake} />
             </div>
             <div className="right">
                 <h2>Contact</h2>

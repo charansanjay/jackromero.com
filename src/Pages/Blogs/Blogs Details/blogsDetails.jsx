@@ -1,5 +1,8 @@
 import "./blogsDetails.scss";
 
+// Images imports
+import blog_1 from "../../../images/blog_1.png";
+
 export default function blogsDetails() {
     return (
         <div className="blogs-details">
@@ -8,7 +11,7 @@ export default function blogsDetails() {
                 {/* Image */}
                 <div className="left">
                     <div className="image-container">
-                        <img src="assets/blog_1.png" />
+                        <img src={blog_1} />
                     </div>
 
                 </div>

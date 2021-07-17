@@ -8,6 +8,9 @@ import Blogs from "../../Pages/Blogs/blogs";
 // Navigation imports
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
+// Images import
+import jack_logo from "../../images/jack_logo.png";
+
 export default function TopNavbar({ menuOpen, setMenuOpen }) {
 
     let history = useHistory();
@@ -17,7 +20,7 @@ export default function TopNavbar({ menuOpen, setMenuOpen }) {
             <div className="wrapper">
                 {/* Left */}
                 <div className="left">
-                    <a href="#about_me"><img src="assets/jack_logo.png" /></a>
+                    <a href="#about_me"><img src={jack_logo} /></a>
                 </div>
 
                 {/* Right (only for Mobile phones) */}

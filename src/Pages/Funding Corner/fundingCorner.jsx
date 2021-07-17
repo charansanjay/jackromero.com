@@ -2,14 +2,19 @@ import "./fundingCorner.scss";
 
 import { useHistory } from "react-router-dom";
 
+// Images imports
+import blog_1 from "../../images/blog_1.png";
+import cross_culture from "../../images/cross-culture.png";
+import wiskat_website from "../../images/wiskat_website.PNG";
+
 export default function FundingCorner() {
 
     const data = [
         {
             id: "1",
             company_name: "Wiskat Limited",
-            company_logo: "assets/cross-culture.png",
-            banner: "assets/blog_1.png",
+            company_logo: cross_culture,
+            banner: blog_1,
             Location: "United Kingdom",
             company_info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut accusamus explicabo aspernatur harum consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat um consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat!",
             email: "charan0625@gmail.com",
@@ -19,8 +24,8 @@ export default function FundingCorner() {
         {
             id: "2",
             company_name: "Wiskat Limited",
-            company_logo: "assets/cross-culture.png",
-            banner: "assets/blog_1.png",
+            company_logo: cross_culture,
+            banner: blog_1,
             Location: "United Kingdom",
             company_info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut accusamus explicabo aspernatur harum consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat um consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat!",
             email: "charan0625@gmail.com",
@@ -30,8 +35,8 @@ export default function FundingCorner() {
         {
             id: "3",
             company_name: "Wiskat Limited",
-            company_logo: "assets/cross-culture.png",
-            banner: "assets/blog_1.png",
+            company_logo: cross_culture,
+            banner: blog_1,
             Location: "United Kingdom",
             company_info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut accusamus explicabo aspernatur harum consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat um consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat!",
             email: "charan0625@gmail.com",
@@ -41,8 +46,8 @@ export default function FundingCorner() {
         {
             id: "4",
             company_name: "Wiskat Limited",
-            company_logo: "assets/cross-culture.png",
-            banner: "assets/blog_1.png",
+            company_logo: cross_culture,
+            banner: blog_1,
             Location: "UK",
             company_info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut accusamus explicabo aspernatur harum consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat um consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat!",
             email: "charan0625@gmail.com",
@@ -52,8 +57,8 @@ export default function FundingCorner() {
         {
             id: "5",
             company_name: "Wiskat Limited",
-            company_logo: "assets/cross-culture.png",
-            banner: "assets/blog_1.png",
+            company_logo: cross_culture,
+            banner: blog_1,
             Location: "UK",
             company_info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut accusamus explicabo aspernatur harum consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat um consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat!",
             email: "charan0625@gmail.com",
@@ -63,8 +68,8 @@ export default function FundingCorner() {
         {
             id: "6",
             company_name: "Wiskat Limited",
-            company_logo: "assets/cross-culture.png",
-            banner: "assets/blog_1.png",
+            company_logo: cross_culture,
+            banner: blog_1,
             Location: "UK",
             company_info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut accusamus explicabo aspernatur harum consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat um consequuntur quidem, quas reprehenderit dignissimos veritatis debitis corporis quaerat!",
             email: "charan0625@gmail.com",
@@ -86,7 +91,7 @@ export default function FundingCorner() {
             <div className="section1-container">
                 <div className="left">
                     <div className="image-container">
-                        <img src="assets/wiskat_website.png" />
+                        <img src={wiskat_website} />
                     </div>
                 </div>
 
