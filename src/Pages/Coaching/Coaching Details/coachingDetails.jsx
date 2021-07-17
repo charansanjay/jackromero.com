@@ -13,7 +13,7 @@ export default function CoachingDetails() {
 
             {/* Coaching Info */}
             <div className="info-container">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in quae ratione quo natus harum ducimus commodi! Magni deleniti inventore, exercitationem, molestias qui tempora repudiandae dolorem dolor eum, quos eveniet.
+                <p>Lorem ipsum dolo sit amet consectetur adipisicing elit. Delectus in quae ratione quo natus harum ducimus commodi! Magni deleniti inventore, exercitationem, molestias qui tempora repudiandae dolorem dolor eum, quos eveniet.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in quae ratione quo natus harum ducimus commodi! Magni deleniti inventore, exercitationem, molestias qui tempora repudiandae dolorem dolor eum, quos eveniet.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in quae ratione quo natus harum ducimus commodi! Magni deleniti inventore, exercitationem, molestias qui tempora repudiandae dolorem dolor eum, quos eveniet.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in quae ratione quo natus harum ducimus commodi! Magni deleniti inventore, exercitationem, molestias qui tempora repudiandae dolorem dolor eum, quos eveniet.
