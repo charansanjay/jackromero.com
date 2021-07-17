@@ -32,9 +32,10 @@ function App() {
 
     <div className="app">
       <Router>
+      <Switch>
         <TopNavbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <Switch>
+        
           <Route exact path="/home" component={Home} />
           <Route exact path="/blogs" component={Blogs} />
           <Route exact path="/about-me" component={About} />
@@ -45,8 +46,9 @@ function App() {
           <Route exact path="/coaching-details" component={CoachingDetails} />
           <Route exact path="/blogs-details" component={BlogsDetails} />
           <Route exact path="/funding-corner" component={FundingCorner} />
-        </Switch>
+        
         <Footer />
+        </Switch>
       </Router>
     </div>
 

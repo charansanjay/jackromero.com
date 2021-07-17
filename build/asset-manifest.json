@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jackromero.com/static/css/main.9fa2e18b.chunk.css",
-    "main.js": "/jackromero.com/static/js/main.17d0e6ab.chunk.js",
-    "main.js.map": "/jackromero.com/static/js/main.17d0e6ab.chunk.js.map",
+    "main.js": "/jackromero.com/static/js/main.5818d508.chunk.js",
+    "main.js.map": "/jackromero.com/static/js/main.5818d508.chunk.js.map",
     "runtime-main.js": "/jackromero.com/static/js/runtime-main.d55b967a.js",
     "runtime-main.js.map": "/jackromero.com/static/js/runtime-main.d55b967a.js.map",
     "static/js/2.ce548cbd.chunk.js": "/jackromero.com/static/js/2.ce548cbd.chunk.js",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.d55b967a.js",
     "static/js/2.ce548cbd.chunk.js",
     "static/css/main.9fa2e18b.chunk.css",
-    "static/js/main.17d0e6ab.chunk.js"
+    "static/js/main.5818d508.chunk.js"
   ]
 }
