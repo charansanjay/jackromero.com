@@ -38,6 +38,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            //background-color: pink;
 
 
             .image-container {
@@ -88,10 +89,11 @@
         margin-top: 39px;
 
         .image-container {
-            height: 135px;
+            height: auto;
 
             img {
                 height: 100%;
+                margin-bottom: 0;
             }
         }
 
@@ -100,9 +102,11 @@
             margin-top: 0;
 
             .left {
+                
                 .image-container {
-                    height: 45%;
-                    width: 45%;
+                    height: 40%;
+                    width: 40%;
+                    margin-bottom: 15px;
                 }
             }
 
@@ -111,7 +115,6 @@
 
                 .info-container {
                     width: 100%;
-
 
                     p {
                         font-size: 16px;
@@ -132,7 +135,7 @@
         margin-top: 39px;
 
         .image-container {
-            height: 170px;
+            height: auto;
         }
 
         .about-container {

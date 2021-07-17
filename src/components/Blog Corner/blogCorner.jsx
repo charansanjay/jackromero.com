@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import blog_1 from "../../images/blog_1.png";
 import blog_2 from "../../images/blog_2.png";
 import blog_3 from "../../images/blog_3.png";
+import arrow from "../../images/arrow.png";
 
 export default function BlogCorner() {
 
@@ -80,8 +81,8 @@ export default function BlogCorner() {
             </div>
 
             {/* Slider arrow image */}
-            <img src="assets/arrow.png" className="arrow left" onClick={() => handleClick("left")} />
-            <img src="assets/arrow.png" className="arrow right" onClick={() => handleClick("right")} />
+            <img src={arrow} className="arrow left" onClick={() => handleClick("left")} />
+            <img src={arrow} className="arrow right" onClick={() => handleClick("right")} />
 
         </div>
     )
