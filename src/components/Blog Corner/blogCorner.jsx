@@ -65,7 +65,7 @@ export default function BlogCorner() {
 
                                     <a href="../../Pages/Blogs/blogs.jsx">Read more..</a>
 
-                                    <p className="read-more"><strong>Read more..</strong></p>
+                                    {/* <p className="read-more"><strong>Read more..</strong></p> */}
 
                                 </div>
                             </div>

@@ -2,6 +2,7 @@
 import TopNavbar from './components/Top Navbar/topNavbar';
 import Menu from './components/Menu/menu';
 import Footer from './components/Footer/footer';
+import ScrollToTop from './components/ScrollToTopScreen/scrollToTop'
 
 
 // Pages imports
@@ -28,11 +29,11 @@ import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
+
     <div className="app">
       <Router>
         <TopNavbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <Home/>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/blogs" component={Blogs} />
@@ -47,8 +48,10 @@ function App() {
         </Switch>
         <Footer />
       </Router>
-
     </div>
+
+
+
   );
 }
 

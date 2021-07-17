@@ -23,7 +23,7 @@ export default function Testimonials() {
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aut quis nostrum officiis doloremque itaque vel ut!",
             name: "Charan Singh",
             title: "Wiskat Limited",
-            image: "assets/charan_1.png"
+            image: "assets/charan_1.PNG"
         }
     ]
 
