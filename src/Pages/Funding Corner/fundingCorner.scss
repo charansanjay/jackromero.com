@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&display=swap');
-
 
 .funding-corner {
     margin-top: 70px;
@@ -20,10 +18,11 @@
             overflow: hidden;
 
             position: relative;
+
             img {
                 width: 100%;
                 height: 100%;
-                
+
             }
         }
 
@@ -34,7 +33,6 @@
             margin: 10px 0;
             color: #000000;
             font-family: 'Dancing Script', cursive;
-            //font-family: 'Lobster', cursive;
             font-size: 100px;
             font-weight: bold;
         }
@@ -51,16 +49,18 @@
         text-align: center;
     }
 
-    
+
 
     .container1 {
         padding: 0 100px;
         margin-bottom: 50px;
+
         h3 {
             color: rgb(47, 47, 158);
             margin-bottom: 30px;
             font-size: 22px;
         }
+
         .section1-container {
 
             display: flex;
@@ -110,6 +110,7 @@
     /* Section 2 */
     .container2 {
         padding: 0 100px;
+        margin-bottom: 50px;
 
         h3 {
             color: rgb(47, 47, 158);
@@ -206,18 +207,21 @@
 
                                 h2 {
                                     font-size: 17px;
+
                                     span {
                                         color: #c6c93c;
                                         font-size: 17px;
                                     }
                                 }
-                                
+
                             }
 
                             .right {
                                 flex: 0.5;
+
                                 h2 {
                                     font-size: 16px;
+
                                     span {
                                         color: #0088CC;
                                         font-size: 17px;
@@ -231,7 +235,6 @@
         }
     }
 }
-
 
 /* For MOBILE PHONES - Till 415px width (
     Moto G4, Galaxy S5 - 360px,
@@ -251,20 +254,21 @@
             justify-content: center;
             align-items: center;
             margin-bottom: 35px;
-    
+
             .image-container {
                 width: 100%;
                 height: 200px;
                 overflow: hidden;
-    
+
                 position: relative;
+
                 img {
                     width: 100%;
                     height: 100%;
-                    
+
                 }
             }
-    
+
             h1 {
                 top: 13%;
                 left: 8%;
@@ -276,6 +280,8 @@
 
         .container1 {
             padding: 0 20px;
+            margin-bottom: 10px;
+
             h3 {
                 font-size: 19px;
             }
@@ -286,11 +292,11 @@
 
                 .left {
                     flex: 1;
-    
+
                     .image-container {
                         height: auto;
                         margin-bottom: 30px;
-    
+
                         img {
                             width: 100%;
                         }
@@ -304,22 +310,25 @@
         }
 
         .container2 {
-            padding: 0 10px;;
+            padding: 0 10px;
+            ;
+
             h3 {
                 color: rgb(47, 47, 158);
                 padding: 0 10px;
+                margin-bottom: 10px;
             }
 
             .section-container {
                 .card {
                     .image-container {
                         height: auto;
-    
+
                         .banner {
                             height: 100%;
                         }
                     }
-    
+
                     .info {
                         .info1 {
                             padding: 10px 15px;
@@ -338,11 +347,12 @@
                                     h2 {
                                         font-size: 15px;
                                     }
-                                    
+
                                 }
 
                                 .right {
                                     flex: 0.5;
+
                                     h2 {
                                         font-size: 14px;
                                     }
@@ -355,3 +365,130 @@
         }
     }
 }
+
+
+/* For SMALL TABLETS - From 416px  - 769px width (
+    Surface Duo - 540px.
+    iPad - 768px,
+    */
+    @media only screen and (min-width: 416px) and (max-width: 769px) {
+        .funding-corner {
+            padding: 0px 0px;
+            //margin-top: 80px;
+    
+            .heading {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 35px;
+    
+                .image-container {
+                    width: 100%;
+                    height: 300px;
+                    overflow: hidden;
+    
+                    img {
+                        width: 100%;
+                        height: 100%;
+    
+                    }
+                }
+    
+                h1 {
+                    top: 11%;
+                    left: 8%;
+                    color: #000000;
+                    font-size: 48px;
+                    font-weight: bold;
+                }
+            }
+    
+            .container1 {
+                padding: 0 20px;
+                margin-bottom: 10px;
+    
+                h3 {
+                    font-size: 19px;
+                }
+    
+                .section1-container {
+                    flex-direction: column;
+                    align-items: center;
+    
+                    .left {
+                        flex: 1;
+    
+                        .image-container {
+                            height: auto;
+                            margin-bottom: 30px;
+    
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+    
+                    .right {
+                        flex: 1;
+                    }
+                }
+            }
+    
+            .container2 {
+                padding: 0 10px;
+                
+    
+                h3 {
+                    color: rgb(47, 47, 158);
+                    padding: 0 10px;
+                    margin-bottom: 10px;
+                }
+    
+                .section-container {
+                    .card {
+                        width: 320px;
+                        .image-container {
+                            height: 200px;
+    
+                            .banner {
+                                height: 100%;
+                            }
+                        }
+    
+                        .info {
+                            .info1 {
+                                padding: 10px 15px;
+                            }
+    
+                            .info2 {
+    
+                                .investment-info {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+    
+                                    .left {
+                                        flex: 0.5;
+    
+                                        h2 {
+                                            font-size: 15px;
+                                        }
+    
+                                    }
+    
+                                    .right {
+                                        flex: 0.5;
+    
+                                        h2 {
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
