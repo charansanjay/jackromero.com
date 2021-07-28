@@ -7,7 +7,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: pink;
+        //background-color: pink;
 
         img {
             width: 100%;
@@ -17,5 +17,68 @@
 
     .info-container {
         margin: 25px 50px;
+    }
+}
+
+
+/* For MOBILE PHONES - Till 415px width (
+    Moto G4, Galaxy S5 - 360px,
+    Pixel 2, Pixel 2 XL- 411px, 
+    iphone 5/SE - 320px, iphone 6/7/8 - 375px, iphone 6/7/8 plus - 414px)
+    iphone X - 375px, 
+    
+    */
+@media only screen and (max-width: 415px) {
+    .coaching-details {
+        .image-container {
+            height: 100%;
+        }
+
+        .info-container {
+            margin: 25px;
+
+            p {
+                text-align: justify;
+            }
+        }
+    }
+}
+
+/* For SMALL TABLETS - From 416px  - 769px width (
+    Surface Duo - 540px.
+    iPad - 768px,
+    */
+    @media only screen and (min-width: 416px) and (max-width: 769px) {
+        .coaching-details {
+            .image-container {
+                height: 100%;
+            }
+    
+            .info-container {
+                margin: 25px;
+    
+                p {
+                    text-align: justify;
+                }
+            }
+        }
+    }
+
+    /* For LARGE TABLETS - From 770px  - 1025px width (
+    iPad Pro - 1024px.
+    */
+@media only screen and (min-width: 770px) and (max-width: 1025px) {
+    .coaching-details {
+        .image-container {
+            height: 100%;
+        }
+
+        .info-container {
+            margin: 25px;
+
+            p {
+                text-align: justify;
+            }
+        }
     }
 }
