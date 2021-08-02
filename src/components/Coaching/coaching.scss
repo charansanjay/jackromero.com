@@ -100,10 +100,15 @@
             background: #000000;
         }
 
-        .card:hover h2,
-        p {
+        .card:hover h2 {
+            color: crimson
+        }
+
+
+        .card:hover h3 {
             color: #FFFFFF;
         }
+
 
         .card:hover p {
             color: #FFFFFF;
