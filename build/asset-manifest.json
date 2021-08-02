@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jackromero.com/static/css/main.e113e5f8.chunk.css",
-    "main.js": "/jackromero.com/static/js/main.67e7358f.chunk.js",
-    "main.js.map": "/jackromero.com/static/js/main.67e7358f.chunk.js.map",
+    "main.js": "/jackromero.com/static/js/main.addf82f6.chunk.js",
+    "main.js.map": "/jackromero.com/static/js/main.addf82f6.chunk.js.map",
     "runtime-main.js": "/jackromero.com/static/js/runtime-main.d55b967a.js",
     "runtime-main.js.map": "/jackromero.com/static/js/runtime-main.d55b967a.js.map",
     "static/js/2.de24ccbd.chunk.js": "/jackromero.com/static/js/2.de24ccbd.chunk.js",
@@ -24,6 +24,7 @@
     "static/media/jack_8.740758c3.png": "/jackromero.com/static/media/jack_8.740758c3.png",
     "static/media/jack_aeroplane.f11a6912.jfif": "/jackromero.com/static/media/jack_aeroplane.f11a6912.jfif",
     "static/media/jack_round.f2277fd8.jfif": "/jackromero.com/static/media/jack_round.f2277fd8.jfif",
+    "static/media/leader.7f35c62c.png": "/jackromero.com/static/media/leader.7f35c62c.png",
     "static/media/life_journey.90db5d93.jpg": "/jackromero.com/static/media/life_journey.90db5d93.jpg",
     "static/media/linkedin.476f3104.png": "/jackromero.com/static/media/linkedin.476f3104.png",
     "static/media/shake.c7165a1f.svg": "/jackromero.com/static/media/shake.c7165a1f.svg",
@@ -33,6 +34,6 @@
     "static/js/runtime-main.d55b967a.js",
     "static/js/2.de24ccbd.chunk.js",
     "static/css/main.e113e5f8.chunk.css",
-    "static/js/main.67e7358f.chunk.js"
+    "static/js/main.addf82f6.chunk.js"
   ]
 }

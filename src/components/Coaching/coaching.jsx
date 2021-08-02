@@ -3,6 +3,7 @@ import "./coaching.scss";
 import { useHistory } from "react-router-dom";
 
 // Images import
+import leadership from "../../images/leader.png";
 import business from "../../images/business.png";
 import cross_culture from "../../images/cross-culture.png";
 import entrepreneur_2 from "../../images/entrepreneur_2.png";
@@ -22,7 +23,7 @@ export default function Coaching() {
                 <div onClick={() => history.push("/coaching-details")} className="card">
                     <div className="card-image-container">
                         <div className="card-image">
-                            <img src={business} />
+                            <img src={leadership} />
                         </div>
                     </div>
                     <div className="card-info">
