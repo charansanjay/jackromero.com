@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/jackromero.com/static/css/main.bcfac8e4.chunk.css",
-    "main.js": "/jackromero.com/static/js/main.74937cb8.chunk.js",
-    "main.js.map": "/jackromero.com/static/js/main.74937cb8.chunk.js.map",
+    "main.css": "/jackromero.com/static/css/main.5815e767.chunk.css",
+    "main.js": "/jackromero.com/static/js/main.b0403c1b.chunk.js",
+    "main.js.map": "/jackromero.com/static/js/main.b0403c1b.chunk.js.map",
     "runtime-main.js": "/jackromero.com/static/js/runtime-main.d55b967a.js",
     "runtime-main.js.map": "/jackromero.com/static/js/runtime-main.d55b967a.js.map",
     "static/js/2.de24ccbd.chunk.js": "/jackromero.com/static/js/2.de24ccbd.chunk.js",
     "static/js/2.de24ccbd.chunk.js.map": "/jackromero.com/static/js/2.de24ccbd.chunk.js.map",
     "index.html": "/jackromero.com/index.html",
-    "static/css/main.bcfac8e4.chunk.css.map": "/jackromero.com/static/css/main.bcfac8e4.chunk.css.map",
+    "static/css/main.5815e767.chunk.css.map": "/jackromero.com/static/css/main.5815e767.chunk.css.map",
     "static/js/2.de24ccbd.chunk.js.LICENSE.txt": "/jackromero.com/static/js/2.de24ccbd.chunk.js.LICENSE.txt",
     "static/media/blog_1.076d0816.png": "/jackromero.com/static/media/blog_1.076d0816.png",
     "static/media/blog_2.9aa73872.png": "/jackromero.com/static/media/blog_2.9aa73872.png",
@@ -21,6 +21,7 @@
     "static/media/instagram.aa133b4a.webp": "/jackromero.com/static/media/instagram.aa133b4a.webp",
     "static/media/invest.6a7b6adf.jpg": "/jackromero.com/static/media/invest.6a7b6adf.jpg",
     "static/media/jack_1.86ab9d71.jpg": "/jackromero.com/static/media/jack_1.86ab9d71.jpg",
+    "static/media/jack_8.740758c3.png": "/jackromero.com/static/media/jack_8.740758c3.png",
     "static/media/jack_aeroplane.f11a6912.jfif": "/jackromero.com/static/media/jack_aeroplane.f11a6912.jfif",
     "static/media/jack_round.f2277fd8.jfif": "/jackromero.com/static/media/jack_round.f2277fd8.jfif",
     "static/media/life_journey.90db5d93.jpg": "/jackromero.com/static/media/life_journey.90db5d93.jpg",
@@ -31,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.d55b967a.js",
     "static/js/2.de24ccbd.chunk.js",
-    "static/css/main.bcfac8e4.chunk.css",
-    "static/js/main.74937cb8.chunk.js"
+    "static/css/main.5815e767.chunk.css",
+    "static/js/main.b0403c1b.chunk.js"
   ]
 }

@@ -1,7 +1,7 @@
 .top-navbar {
     width: 100%;
     height: 70px;
-    background-color: #000000;
+    background-color: rgb(19, 45, 77);
     position: fixed;
     top: 0;
     z-index: 3;
@@ -9,17 +9,61 @@
     overflow: hidden;
 
     .wrapper {
-        padding: 10px 30px;
+        padding: 0px 30px;
+        padding-top: 5px;
         display: flex;
         align-items: center;
         justify-content: flex-end;
 
         .left {
-            flex: 0.6;
+            flex: 0.3;
             //background-color: yellow;
 
-            img {
-                width: 135px;
+            .logo-container {
+                .link {
+                    text-decoration: none;
+                    color: #a8a7a7;
+                    font-weight: bold;
+                    font-size: 50px;
+                    cursor: pointer;
+                    font-style: italic;
+
+                    &:active {
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+
+        .right-section {
+            flex: 0.7;
+            display: flex;
+            justify-content: flex-end;
+
+            ul {
+                display: flex;
+                flex-direction: row;
+
+                li {
+                    text-decoration: none;
+                    margin-left: 10px;
+                    font-size: 18px;
+                    color: #FFFFFF;
+                    cursor: pointer;
+
+                    .link {
+                        text-decoration: none;
+                        color: #FFFFFF;
+                    }
+
+                    :hover {
+                        color: #3DCFD3;
+                    }
+                }
+
+                :hover {
+                    color: #3DCFD3;
+                }
             }
         }
     }
@@ -28,6 +72,10 @@
         background-color: #000000;
         color: #FFFFFF;
         overflow: hidden;
+
+        .left {
+            flex: 0.6;
+        }
 
         .right {
             flex: 0.4;
@@ -56,7 +104,14 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+/* For MOBILE PHONES - Till 415px width (
+    Moto G4, Galaxy S5 - 360px,
+    Pixel 2, Pixel 2 XL- 411px, 
+    iphone 5/SE - 320px, iphone 6/7/8 - 375px, iphone 6/7/8 plus - 414px)
+    iphone X - 375px, 
+    
+    */
+@media only screen and (max-width: 415px) {
     .top-navbar {
 
         .wrapper {
@@ -68,9 +123,15 @@
                 flex: 0.5;
                 padding-left: 0px;
 
-                img {
-                    width: 105px;
+                //background-color: pink;
+
+                .logo-container {
+                    .link {
+                        font-size: 45px;
+                    }
                 }
+
+
             }
 
             .right {
@@ -101,7 +162,9 @@
             }
 
             .right-section {
+                flex: 0;
                 width: 0;
+
                 ul {
 
                     li {
@@ -114,21 +177,102 @@
 }
 
 
+/* For SMALL TABLETS - From 416px  - 769px width (
+    Surface Duo - 540px.
+    iPad - 768px,
+    */
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+// This CSS is same as above for max-width: 415px
+@media only screen and (min-width: 416px) and (max-width: 769px) {
     .top-navbar {
 
         .wrapper {
+            padding: 10px 20px;
+            padding-left: 10px;
+            //background-color: orange;
 
             .left {
+                flex: 0.8;
+                padding-left: 0px;
 
-                img {
-                    width: 105px;
+                //background-color: pink;
+
+                .logo-container {
+                    .link {
+                        font-size: 45px;
+                    }
+                }
+
+
+            }
+
+            .right {
+                flex: 0.2;
+                //background-color: pink;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+
+                .hamburger {
+                    width: 30px;
+                    height: 24px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    cursor: pointer;
+                    //background-color: blue;
+
+                    span {
+                        width: 100%;
+                        height: 3px;
+                        background-color: #3DCFD3;
+                        transform-origin: left;
+                        transition: all 2s ease;
+                    }
                 }
             }
 
             .right-section {
-                flex: 2;
+                flex: 0;
+                width: 0;
+
+                ul {
+
+                    li {
+                        font-size: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* For LARGE TABLETS - From 770px  - 1025px width (
+    iPad Pro - 1024px.
+    */
+@media only screen and (min-width: 770px) and (max-width: 1025px) {
+    .top-navbar {
+
+        .wrapper {
+            padding: 15px;
+            padding-left: 20px;
+
+            .left {
+                flex: 0.3;
+                /* img {
+                        width: 105px;
+                    } */
+
+                .logo-container {
+                    .link {
+                        font-size: 35px;
+                    }
+                }
+            }
+
+            .right-section {
+                flex: 0.7;
                 display: flex;
                 justify-content: flex-end;
 
@@ -140,53 +284,7 @@
                     li {
                         text-decoration: none;
                         margin-left: 10px;
-                        font-size: 13px;
-                        color: #FFFFFF;
-                        cursor: pointer;
-
-                        .link {
-                            text-decoration: none;
-                            color: #FFFFFF;
-                        }
-
-                        :hover {
-                            color: #3DCFD3;
-                        }
-                    }
-
-                    :hover {
-                        color: #3DCFD3;
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 1025px) {
-    .top-navbar {
-
-        .wrapper {
-
-            .left {
-                img {
-                    width: 145px;
-                }
-            }
-
-            .right-section {
-                flex: 2;
-                display: flex;
-                justify-content: flex-end;
-
-                ul {
-                    display: flex;
-                    flex-direction: row;
-
-                    li {
-                        text-decoration: none;
-                        margin-left: 25px;
-                        font-size: 18px;
+                        font-size: 15px;
                         color: #FFFFFF;
                         cursor: pointer;
 

@@ -20,7 +20,11 @@ export default function TopNavbar({ menuOpen, setMenuOpen }) {
             <div className="wrapper">
                 {/* Left */}
                 <div className="left">
-                    <Link to="/" className="link" ><img src={jack_logo} /></Link>
+                    <div className="logo-container">
+                        <a href="https://www.linkedin.com/company/jr-investments-education-partnerships/?miniCompanyUrn=urn%3Ali%3Afs_miniCompany%3A30613803" className="link" target="_blank">JR</a>
+                        {/* <Link to="/" className="link" ></Link> */}
+                    </div>
+
                 </div>
 
                 {/* Right (only for Mobile phones) */}
@@ -43,19 +47,6 @@ export default function TopNavbar({ menuOpen, setMenuOpen }) {
                         {/* <li><Link to="/testimonials" className="link">Testimonials</Link></li> */}
                         <li><Link to="/contact" className="link">Contact</Link></li>
                     </ul>
-
-                    {/* <a href="#about_me">Home</a>
-                    <a href="#about_me">About Me</a>
-                    <a href="#coaching">Coaching</a>
-                    <a href="#speaking">Speaking</a> */}
-                    {/* <a href="" onClick={() => {history.push("/blogs")}}>Blog Corner</a> */}
-                    {/* <Router>
-                        <Link to="/" >Blog Corner</Link>
-                        <Route path="/blogs" component={Blogs} />
-                    </Router> */}
-
-                    {/* <a href="#testimonials">Testimonials</a>
-                    <a href="#contact">Contact</a> */}
                 </div>
             </div>
         </div>
