@@ -9,7 +9,7 @@ import Blogs from "../../Pages/Blogs/blogs";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
 // Images import
-import jack_logo from "../../images/jack_logo.png";
+import jack_logo from "../../images/jr_partnership.png";
 
 export default function TopNavbar({ menuOpen, setMenuOpen }) {
 
@@ -21,8 +21,7 @@ export default function TopNavbar({ menuOpen, setMenuOpen }) {
                 {/* Left */}
                 <div className="left">
                     <div className="logo-container">
-                        <a href="https://www.linkedin.com/company/jr-investments-education-partnerships/?miniCompanyUrn=urn%3Ali%3Afs_miniCompany%3A30613803" className="link" target="_blank">JR</a>
-                        {/* <Link to="/" className="link" ></Link> */}
+                        <a href="https://www.linkedin.com/company/jr-investments-education-partnerships/?miniCompanyUrn=urn%3Ali%3Afs_miniCompany%3A30613803" className="link" target="_blank"><img src={jack_logo} /></a>
                     </div>
 
                 </div>
