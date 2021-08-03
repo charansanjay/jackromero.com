@@ -92,6 +92,10 @@
                     text-align: justify;
                     font-size: 17px;
                 }
+
+                .card-info:hover p{
+                    color: #FFFFFF;
+                }
             }
         }
 
@@ -104,15 +108,11 @@
             color: crimson
         }
 
-
         .card:hover h3 {
             color: #FFFFFF;
         }
 
-
-        .card:hover p {
-            color: #FFFFFF;
-        }
+        
     }
 }
 
