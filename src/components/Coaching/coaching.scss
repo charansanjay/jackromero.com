@@ -156,7 +156,6 @@
                     flex: 0.7;
                     padding: 2rem 15px;
 
-
                     h2 {
                         margin-bottom: 20px;
                         width: 80%;
@@ -179,15 +178,6 @@
             .card:hover {
                 cursor: pointer;
                 background: #000000;
-            }
-
-            .card:hover h2,
-            p {
-                color: #FFFFFF;
-            }
-
-            .card:hover p {
-                color: #FFFFFF;
             }
         }
     }
@@ -257,14 +247,6 @@
                 background: #000000;
             }
 
-            .card:hover h2,
-            p {
-                color: #FFFFFF;
-            }
-
-            .card:hover p {
-                color: #FFFFFF;
-            }
         }
     }
 }
